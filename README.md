@@ -6,11 +6,12 @@ This packet sniffer tool is designed for educational and research purposes. It a
 
 Features
 
-Capture network packets on specified network interfaces.
-Display source and destination IP addresses.
-Identify protocols (TCP, UDP, etc.) used in packets.
-Display source and destination port numbers.
-Analyze and display packet payload data.
+1.Capture network packets on specified network interfaces.
+2.Display source and destination IP addresses.
+3.Identify protocols (TCP, UDP, etc.) used in packets.
+4.Display source and destination port numbers.
+5.Analyze and display packet payload data.
+
 Requirements
 
 System Requirements
@@ -19,11 +20,12 @@ Operating System: Linux distribution (e.g., Ubuntu, Debian, Fedora). Network Int
 
 Software Requirements
 
-Python: Version 3.6 or later.
-Libraries:
-scapy for packet manipulation.
-pyshark (optional) for advanced packet analysis.
-tshark for command-line packet analysis with pyshark.
+1.Python: Version 3.6 or later.
+2.Libraries:
+  >scapy for packet manipulation.
+  >pyshark (optional) for advanced packet analysis.
+  >tshark for command-line packet analysis with pyshark.
+
 Installing Dependencies
 
 Run the following commands to install the necessary dependencies:
@@ -48,11 +50,12 @@ Output
 
 The tool will capture and display the following information for each packet:
 
-Source IP Address
-Destination IP Address
-Protocol (e.g., TCP, UDP)
-Source and Destination Ports (if applicable)
-Payload Data
+>Source IP Address
+>Destination IP Address
+>Protocol (e.g., TCP, UDP)
+>Source and Destination Ports (if applicable)
+>Payload Data
+
 Stopping the Tool
 
 Press Ctrl+C to stop the packet sniffer.
@@ -67,13 +70,14 @@ Ethical Considerations
 
 This tool is intended for educational purposes only. Please use it responsibly and legally:
 
-Authorized Networks Only: Use this tool only on networks you own or have explicit permission to monitor.
-Respect Privacy: Do not intercept private communications without consent.
-No Malicious Use: Avoid using this tool for unauthorized access or data theft.
+>Authorized Networks Only: Use this tool only on networks you own or have explicit permission to monitor.
+>Respect Privacy: Do not intercept private communications without consent.
+>No Malicious Use: Avoid using this tool for unauthorized access or data theft.
+
 Educational Usage
 
 This tool is perfect for:
 
-Learning network protocols and packet analysis.
-Debugging network issues.
-Exploring cybersecurity concepts in a controlled environment
+>Learning network protocols and packet analysis.
+>Debugging network issues.
+>Exploring cybersecurity concepts in a controlled environment
